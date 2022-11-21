@@ -188,13 +188,7 @@ describe('ADMIN | PAGES | AUTH | Register', () => {
         color: #666687;
       }
 
-      .c38 {
-        font-size: 0.875rem;
-        line-height: 1.43;
-        color: #32324d;
-      }
-
-      .c43 {
+      .c39 {
         font-size: 0.875rem;
         line-height: 1.43;
         font-weight: 600;
@@ -353,7 +347,7 @@ describe('ADMIN | PAGES | AUTH | Register', () => {
         fill: #8e8ea9;
       }
 
-      .c42 {
+      .c38 {
         -webkit-align-items: center;
         -webkit-box-align: center;
         -ms-flex-align: center;
@@ -374,7 +368,7 @@ describe('ADMIN | PAGES | AUTH | Register', () => {
         width: 100%;
       }
 
-      .c42 .c0 {
+      .c38 .c0 {
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -385,119 +379,51 @@ describe('ADMIN | PAGES | AUTH | Register', () => {
         align-items: center;
       }
 
-      .c42 .c5 {
+      .c38 .c5 {
         color: #ffffff;
       }
 
-      .c42[aria-disabled='true'] {
+      .c38[aria-disabled='true'] {
         border: 1px solid #dcdce4;
         background: #eaeaef;
       }
 
-      .c42[aria-disabled='true'] .c5 {
+      .c38[aria-disabled='true'] .c5 {
         color: #666687;
       }
 
-      .c42[aria-disabled='true'] svg > g,
-      .c42[aria-disabled='true'] svg path {
+      .c38[aria-disabled='true'] svg > g,
+      .c38[aria-disabled='true'] svg path {
         fill: #666687;
       }
 
-      .c42[aria-disabled='true']:active {
+      .c38[aria-disabled='true']:active {
         border: 1px solid #dcdce4;
         background: #eaeaef;
       }
 
-      .c42[aria-disabled='true']:active .c5 {
+      .c38[aria-disabled='true']:active .c5 {
         color: #666687;
       }
 
-      .c42[aria-disabled='true']:active svg > g,
-      .c42[aria-disabled='true']:active svg path {
+      .c38[aria-disabled='true']:active svg > g,
+      .c38[aria-disabled='true']:active svg path {
         fill: #666687;
       }
 
-      .c42:hover {
+      .c38:hover {
         border: 1px solid #7b79ff;
         background: #7b79ff;
       }
 
-      .c42:active {
+      .c38:active {
         border: 1px solid #4945ff;
         background: #4945ff;
       }
 
-      .c42 svg > g,
-      .c42 svg path {
+      .c38 svg > g,
+      .c38 svg path {
         fill: #ffffff;
-      }
-
-      .c40 {
-        margin: 0;
-        height: 18px;
-        min-width: 18px;
-        border-radius: 4px;
-        border: 1px solid #c0c0cf;
-        -webkit-appearance: none;
-        background-color: #ffffff;
-        cursor: pointer;
-      }
-
-      .c40:checked {
-        background-color: #4945ff;
-        border: 1px solid #4945ff;
-      }
-
-      .c40:checked:after {
-        content: '';
-        display: block;
-        position: relative;
-        background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDEwIDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGgKICAgIGQ9Ik04LjU1MzIzIDAuMzk2OTczQzguNjMxMzUgMC4zMTYzNTUgOC43NjA1MSAwLjMxNTgxMSA4LjgzOTMxIDAuMzk1NzY4TDkuODYyNTYgMS40MzQwN0M5LjkzODkzIDEuNTExNTcgOS45MzkzNSAxLjYzNTkgOS44NjM0OSAxLjcxMzlMNC4wNjQwMSA3LjY3NzI0QzMuOTg1OSA3Ljc1NzU1IDMuODU3MDcgNy43NTgwNSAzLjc3ODM0IDcuNjc4MzRMMC4xMzg2NiAzLjk5MzMzQzAuMDYxNzc5OCAzLjkxNTQ5IDAuMDYxNzEwMiAzLjc5MDMyIDAuMTM4NTA0IDMuNzEyNEwxLjE2MjEzIDIuNjczNzJDMS4yNDAzOCAyLjU5NDMyIDEuMzY4NDMgMi41OTQyMiAxLjQ0NjggMi42NzM0OEwzLjkyMTc0IDUuMTc2NDdMOC41NTMyMyAwLjM5Njk3M1oiCiAgICBmaWxsPSJ3aGl0ZSIKICAvPgo8L3N2Zz4=) no-repeat no-repeat center center;
-        width: 10px;
-        height: 10px;
-        left: 50%;
-        top: 50%;
-        -webkit-transform: translateX(-50%) translateY(-50%);
-        -ms-transform: translateX(-50%) translateY(-50%);
-        transform: translateX(-50%) translateY(-50%);
-      }
-
-      .c40:checked:disabled:after {
-        background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDEwIDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGgKICAgIGQ9Ik04LjU1MzIzIDAuMzk2OTczQzguNjMxMzUgMC4zMTYzNTUgOC43NjA1MSAwLjMxNTgxMSA4LjgzOTMxIDAuMzk1NzY4TDkuODYyNTYgMS40MzQwN0M5LjkzODkzIDEuNTExNTcgOS45MzkzNSAxLjYzNTkgOS44NjM0OSAxLjcxMzlMNC4wNjQwMSA3LjY3NzI0QzMuOTg1OSA3Ljc1NzU1IDMuODU3MDcgNy43NTgwNSAzLjc3ODM0IDcuNjc4MzRMMC4xMzg2NiAzLjk5MzMzQzAuMDYxNzc5OCAzLjkxNTQ5IDAuMDYxNzEwMiAzLjc5MDMyIDAuMTM4NTA0IDMuNzEyNEwxLjE2MjEzIDIuNjczNzJDMS4yNDAzOCAyLjU5NDMyIDEuMzY4NDMgMi41OTQyMiAxLjQ0NjggMi42NzM0OEwzLjkyMTc0IDUuMTc2NDdMOC41NTMyMyAwLjM5Njk3M1oiCiAgICBmaWxsPSIjOEU4RUE5IgogIC8+Cjwvc3ZnPg==) no-repeat no-repeat center center;
-      }
-
-      .c40:disabled {
-        background-color: #dcdce4;
-        border: 1px solid #c0c0cf;
-      }
-
-      .c40:indeterminate {
-        background-color: #4945ff;
-        border: 1px solid #4945ff;
-      }
-
-      .c40:indeterminate:after {
-        content: '';
-        display: block;
-        position: relative;
-        color: white;
-        height: 2px;
-        width: 10px;
-        background-color: #ffffff;
-        left: 50%;
-        top: 50%;
-        -webkit-transform: translateX(-50%) translateY(-50%);
-        -ms-transform: translateX(-50%) translateY(-50%);
-        transform: translateX(-50%) translateY(-50%);
-      }
-
-      .c40:indeterminate:disabled {
-        background-color: #dcdce4;
-        border: 1px solid #c0c0cf;
-      }
-
-      .c40:indeterminate:disabled:after {
-        background-color: #8e8ea9;
       }
 
       .c28 {
@@ -625,21 +551,6 @@ describe('ADMIN | PAGES | AUTH | Register', () => {
         align-items: center;
       }
 
-      .c39 {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-align-items: flex-start;
-        -webkit-box-align: flex-start;
-        -ms-flex-align: flex-start;
-        align-items: flex-start;
-      }
-
-      .c39 * {
-        cursor: pointer;
-      }
-
       .c8 {
         display: -webkit-box;
         display: -webkit-flex;
@@ -697,10 +608,6 @@ describe('ADMIN | PAGES | AUTH | Register', () => {
 
       .c19 {
         text-align: center;
-      }
-
-      .c41 {
-        color: #4945ff;
       }
 
       .c33::-ms-reveal {
@@ -1070,58 +977,13 @@ describe('ADMIN | PAGES | AUTH | Register', () => {
                       </div>
                     </div>
                   </div>
-                  <div>
-                    <div
-                      class="c0 c21 c25"
-                      spacing="1"
-                    >
-                      <label
-                        class="c5 c38 c39"
-                      >
-                        <div
-                          class="c0 "
-                        >
-                          <input
-                            aria-label="news"
-                            class="c40"
-                            id="checkbox-7"
-                            name="news"
-                            type="checkbox"
-                          />
-                        </div>
-                        <div
-                          class="c0 c7"
-                        >
-                          Keep me updated about new features & upcoming improvements (by doing this you accept the 
-                          <a
-                            class="c41"
-                            href="https://strapi.io/terms"
-                            rel="noreferrer"
-                            target="_blank"
-                          >
-                            terms
-                          </a>
-                           and the 
-                          <a
-                            class="c41"
-                            href="https://strapi.io/privacy"
-                            rel="noreferrer"
-                            target="_blank"
-                          >
-                            policy
-                          </a>
-                          ).
-                        </div>
-                      </label>
-                    </div>
-                  </div>
                   <button
                     aria-disabled="false"
-                    class="c3 c42"
+                    class="c3 c38"
                     type="submit"
                   >
                     <span
-                      class="c5 c43"
+                      class="c5 c39"
                     >
                       Let's start
                     </span>

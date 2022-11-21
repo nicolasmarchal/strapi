@@ -21,7 +21,6 @@ import { Main } from '@strapi/design-system/Main';
 import { Flex } from '@strapi/design-system/Flex';
 import { Button } from '@strapi/design-system/Button';
 import { TextInput } from '@strapi/design-system/TextInput';
-import { Checkbox } from '@strapi/design-system/Checkbox';
 import { Grid, GridItem } from '@strapi/design-system/Grid';
 import { Typography } from '@strapi/design-system/Typography';
 import EyeStriked from '@strapi/icons/EyeStriked';
@@ -35,10 +34,6 @@ import FieldActionWrapper from '../FieldActionWrapper';
 
 const CenteredBox = styled(Box)`
   text-align: center;
-`;
-
-const A = styled.a`
-  color: ${({ theme }) => theme.colors.primary600};
 `;
 
 const PasswordInput = styled(TextInput)`
@@ -272,40 +267,6 @@ const Register = ({ authType, fieldsToDisable, noSignin, onSubmit, schema }) => 
                       })}
                       type={confirmPasswordShown ? 'text' : 'password'}
                     />
-                    <Checkbox
-                      onValueChange={(checked) => {
-                        handleChange({ target: { value: checked, name: 'news' } });
-                      }}
-                      value={values.news}
-                      name="news"
-                      aria-label="news"
-                    >
-                      {formatMessage(
-                        {
-                          id: 'Auth.form.register.news.label',
-                          defaultMessage:
-                            'Keep me updated about new features & upcoming improvements (by doing this you accept the {terms} and the {policy}).',
-                        },
-                        {
-                          terms: (
-                            <A target="_blank" href="https://strapi.io/terms" rel="noreferrer">
-                              {formatMessage({
-                                id: 'Auth.privacy-policy-agreement.terms',
-                                defaultMessage: 'terms',
-                              })}
-                            </A>
-                          ),
-                          policy: (
-                            <A target="_blank" href="https://strapi.io/privacy" rel="noreferrer">
-                              {formatMessage({
-                                id: 'Auth.privacy-policy-agreement.policy',
-                                defaultMessage: 'policy',
-                              })}
-                            </A>
-                          ),
-                        }
-                      )}
-                    </Checkbox>
                     <Button fullWidth size="L" type="submit">
                       {formatMessage({
                         id: 'Auth.form.button.register',
